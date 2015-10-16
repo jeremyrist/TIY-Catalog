@@ -100,14 +100,8 @@ textarea {
 // endbower
 
 @import "grid";
+@import "listing--item-details";
 
-main.container {
-  @extend .grid;
-
-  width: auto; margin: 0 2%;
-  max-width: 60em;
-
-} // END main.container
 
 /* ==========================================================================
    Helper classes
